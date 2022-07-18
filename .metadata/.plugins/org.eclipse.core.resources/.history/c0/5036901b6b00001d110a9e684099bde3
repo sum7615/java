@@ -1,0 +1,11 @@
+package co.suman.file;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+class ReadNumber {
+	public static void main(String[] args) throws Exception {
+
+	FileOutputStream file= new FileOutputStream("number.dat");
+	DataOutputStream out = new DataOutputStream(file);
+	}

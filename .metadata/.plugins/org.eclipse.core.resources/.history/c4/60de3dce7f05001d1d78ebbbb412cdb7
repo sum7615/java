@@ -1,0 +1,5 @@
+package co.suman.people;
+
+public class Address {
+
+}

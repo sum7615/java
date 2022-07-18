@@ -1,0 +1,12 @@
+package co.suman.file;
+
+public class Product {
+	private int id;
+	private String name;
+	private double rate;
+	
+	public Product() {
+	
+	}
+
+}

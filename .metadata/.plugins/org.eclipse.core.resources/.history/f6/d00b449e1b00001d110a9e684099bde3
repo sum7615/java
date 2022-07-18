@@ -1,0 +1,10 @@
+package co.suman.file;
+import java.util.Scanner;
+
+public class Writing {
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		
+		
+	}
+}

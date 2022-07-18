@@ -1,0 +1,12 @@
+package co.suman.file;
+
+import java.io.FileWriter;
+import java.io.Writer;
+
+public class Writing {
+	public static void main(String[] args) {
+		Writer writer = new Writer("sample.txt");
+		FileWriter file = new FileWriter(writer);
+		
+	}
+}

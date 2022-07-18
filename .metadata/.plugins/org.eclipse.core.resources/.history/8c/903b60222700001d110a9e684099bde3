@@ -1,0 +1,17 @@
+package co.suman.file;
+
+import java.util.Scanner;
+import java.io.FileReader;
+
+public class FileRead {
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Please enter a valid path to read file");
+		FileReader file = new FileReader(path);
+		
+		
+		
+		sc.close();
+	}
+}

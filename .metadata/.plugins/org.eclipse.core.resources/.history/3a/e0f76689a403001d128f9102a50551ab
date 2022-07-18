@@ -1,0 +1,12 @@
+package co.suman;
+
+import java.util.HashSet;
+import java.util.Set;
+import co.suman.product.*;
+
+public class SetUsingHashSet {
+public static void main(String[] args) {
+	Set<Product> products = new HashSet<Product>();
+	
+}
+}

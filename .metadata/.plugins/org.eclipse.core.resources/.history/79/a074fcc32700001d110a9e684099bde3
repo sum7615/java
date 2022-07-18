@@ -1,0 +1,14 @@
+package co.suman.file;
+
+import java.util.Scanner;
+
+public class ReadFIleByChar {
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Please enter a valid path to read file");
+		String path = sc.nextLine();
+		
+		sc.close();
+	}
+
+}

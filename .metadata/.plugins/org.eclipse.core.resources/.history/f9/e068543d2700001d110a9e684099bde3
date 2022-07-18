@@ -1,0 +1,19 @@
+package co.suman.file;
+
+import java.util.Scanner;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
+public class FileRead {
+
+	public static void main(String[] args) throws Exception {
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Please enter a valid path to read file");
+		String path = sc.nextLine();
+		FileReader file = new FileReader(path);
+		
+		
+		
+		sc.close();
+	}
+}

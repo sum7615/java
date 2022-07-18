@@ -1,0 +1,11 @@
+package co.suman.file;
+
+public class Serialize {
+	public static void main(String[] args) {
+		Product[] p1 = new Product[
+		                           
+		                           ];
+				
+	}
+
+}

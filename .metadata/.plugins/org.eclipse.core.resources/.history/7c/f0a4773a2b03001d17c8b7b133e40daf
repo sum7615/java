@@ -1,0 +1,17 @@
+package co.suman;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayListP {
+	public static void main(String[] args) {
+		List <String> list = new ArrayList<String>();
+		list.add("Suman");
+		list.add("Paul");
+		list.add("Agatala");
+		list.add(2,"Amtali");
+		list.set(2, "R.K Palli, Amtali");
+		list.remove(3);
+	}
+
+}

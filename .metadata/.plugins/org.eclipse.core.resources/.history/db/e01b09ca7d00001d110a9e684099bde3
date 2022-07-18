@@ -1,0 +1,15 @@
+package co.suman.file;
+import java.io.BufferedInputStream;
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+
+public class DeSerialize {
+	public static void main(String[] args) throws Exception {
+		FileInputStream file = new FileInputStream("product.dat"); 
+		BufferedInputStream bis = new BufferedInputStream(file);
+		ObjectInputStream in = new ObjectInputStream(bis);
+		
+	}
+
+
+}

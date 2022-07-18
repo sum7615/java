@@ -1,0 +1,8 @@
+package co.suman;
+
+public class SetUsingHashSet {
+public static void main(String[] args) {
+	Set<Product> products = new HashSet<Product>();
+	
+}
+}
