@@ -1,9 +1,0 @@
-package co.suman.file;
-import java.io.FileInputStream;
-
-public class ReadNumber {
-	public static void main(String[] args){
-		FileInputStream file = new FileInputStream("number.dat");
-	}
-
-}
