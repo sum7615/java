@@ -2,8 +2,9 @@ package co.suman.people;
 
 import java.util.Objects;
 
-public class Person {
-	private String first_name, last_name;
+public class Person implements Comparable<Person>  { //Person made comparable by "implements Comparable<Person>" and added unimplemented method at down. 
+	private  String first_name;
+	private  String last_name;
 	public Person() {
 		}
 	public Person(String first_name, String last_name) {
@@ -41,6 +42,14 @@ public class Person {
 			return false;
 		Person other = (Person) obj;
 		return Objects.equals(first_name, other.first_name) && Objects.equals(last_name, other.last_name);
+	}
+	@Override
+	public int compareTo(Person other) {
+		int ret = this.first_name.compareTo(other.first_name);
+		if(ret==0) {
+			ret = this.last_name.compareTo(other.last_name);
+		}
+		return ret;
 	}
 	
 
